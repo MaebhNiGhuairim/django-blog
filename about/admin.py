@@ -8,6 +8,3 @@ from django_summernote.admin import SummernoteModelAdmin
 class AboutAdmin(SummernoteModelAdmin):
 
     summernote_fields = ('content',)
-    # list_display = ('title', 'updated_on')
-    # search_fields = ['title', 'content']
-    # prepopulated_fields = {'slug': ('title',)}
